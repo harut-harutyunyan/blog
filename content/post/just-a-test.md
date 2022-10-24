@@ -3,6 +3,7 @@ title: "Just a Test"
 subtitle: Each post also has a subtitle
 date: 2022-09-24T03:03:50+04:00
 tags: ["example", "markdown"]
+# bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphere"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
 # draft: true
 ---
 
@@ -15,16 +16,18 @@ You can write regular [markdown](http://markdowntutorial.com/) here and [Hugo](h
 Here's a useless table:
  
 | Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| :----- | :---------- | :-------------- |
+| Five   | Six         | Four            |
+| Ten    | Eleven      | Nine            |
+| Seven  | Eight       | Six             |
+| Two    | Three       | One             |
  
 
 How about a yummy crepe?
 
 ![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+
+![Example image](/img/0001/test_image.jpg)
 
 Here's a code chunk with syntax highlighting:
 
@@ -33,7 +36,7 @@ Here's a code chunk with syntax highlighting:
     def collect_light_info(cls):
         this_node = cls.this_node()
 
-        vals = ["mute", "intens", "exp", "col"]
+        vals = ["mute", "exp", "col"]
 
         knobs = [i for i, n in this_node.knobs().items() if i.startswith("lgt_") and i.rsplit("_", 1)[1] in vals]
         light_info = {l.replace("lgt_", "").rsplit("_", 1)[0]:{} for l in knobs}
