@@ -22,9 +22,9 @@ pygmentsCodefencesGuessSyntax = true
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
-  rss = true
+  # rss = true
   comments = true
-  # useHLJS = true
+  useHLJS = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
@@ -46,10 +46,9 @@ pygmentsCodefencesGuessSyntax = true
 
   github = "username"
   linkedin = "username"
-#   youtube = "user/username" # or channel/channelname
-#   paypal = "username"
   telegram = "har8unyan"
   discord = "invite code (https://discord.gg/XXXXXXX)"
+  # artstation = "harutharutyunyan"
 
 [[menu.main]]
     name = "Blog"
