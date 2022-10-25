@@ -8,18 +8,18 @@ theme = "beautifulhugo"
 # pygmentsStyle = "trac"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
+# pygmentsCodefencesGuessSyntax = true
 # pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
 [Params]
-  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  homeTitle = "Compositor's Thoughts" # Set a different text for the header on the home page
+  subtitle = "Mostly technical info about digital compositing and not only."
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  logo = "img/jojack-icon.png" # Expecting square dimensions
+  favicon = "img/webicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   # rss = true
@@ -32,9 +32,9 @@ pygmentsCodefencesGuessSyntax = true
 
 
 [[Params.bigimg]]
- src = "img/sphere.jpg"
- desc = "Sphere"
- # position: see values of CSS background-position.
+ src = "img/bigimg_0001.jpg"
+ #  desc = "Sphere"
+ #  position: see values of CSS background-position.
  position = "center top"
 
 
@@ -48,7 +48,7 @@ pygmentsCodefencesGuessSyntax = true
   linkedin = "username"
   telegram = "har8unyan"
   discord = "invite code (https://discord.gg/XXXXXXX)"
-  # artstation = "harutharutyunyan"
+  artstation = "harutharutyunyan"
 
 [[menu.main]]
     name = "Blog"
